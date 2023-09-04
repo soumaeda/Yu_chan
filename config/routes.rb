@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get 'productions/show'
   get 'production/index'
   get 'production/show'
-  get '/' => 'homes#top'
+  root 'homes#top'
 end
