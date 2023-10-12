@@ -11,10 +11,10 @@
           rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
 
-  <body class="bg-success">
+  <body>
     <header class="pt-1">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+        <div class="container-fluid mx-5">
           <%= link_to root_path, class: 'link-underline' do %>
             <h3 class="navbar-brand ">ゆぅちゃんの野菜畑</h3>
           <% end %>
@@ -44,7 +44,7 @@
     </header>
     <%= yield %>
     <footer>
-     <div class="py-3 d-flex justify-content-between">
+     <div class="py-3 mx-5 d-flex justify-content-between">
       <h3 class="title" style="margin-left: 80px;">ゆうちゃんの野菜畑</h3>
       <a style="margin-right: 100px;">お問い合わせ</a>
      </div>
