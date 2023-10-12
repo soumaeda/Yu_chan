@@ -1,10 +1,32 @@
 header {
-    background-color: rgb(230, 230, 71);
+    background-color: #ececa7;
     width: 100%;
+    color: #b2cd71;
+    h2,
+    .link-underline,
+    .li {
+    color: #b2cd71;
+    }
+    a:hover {
+        color: #9cd90c;
+    }
 }
 
 footer {
-    background-color: rgb(230, 230, 71);
+    background-color: #ececa7;
+    color: #b2cd71;
+    .footer-menu {
+        text-decoration: none;
+        color: #b2cd71;
+    }
+    a:hover {
+        color: #9cd90c;
+    }
+}
+
+.main {
+    background-color: #deefd2;
+    color: #849b9b;
 }
 
 .title {
